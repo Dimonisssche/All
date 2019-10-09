@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int f, c;
+	cout << "Enter Your C:" << endl;
+	cin >> c;
+	
+	f = (c * 9 / 5) + 32;
+	cout << "There is Your F:"<< f;
+	return 0;
+
+}
