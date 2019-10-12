@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-	int score1;
-	int score2;
-	int score3;
-	int avPerformance;
+	double score1;
+	double score2;
+	double score3;
+	double avPerformance;
 
 	cout << "Enter Scores from 3 last matches:"<< endl;
 	cin >> score1;
