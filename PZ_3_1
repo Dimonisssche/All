@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int Number = 42;
+
+	unsigned int PositivNumber = Number / -17.f;
+
+	cout << "PositiveNumber = " << PositivNumber << endl;
+
+	system ("pause");
+
+}
+
+PositiveNumber равен 4294967295, так PositiveNumber не может принять отрицательное значение.
