@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n1;
+	int n2;
+	int n3;
+
+	cout << "Enter 3 numbers u wish!" << endl;
+
+	cin >> n1 >> n2 >> n3;
+
+	if (n1 == n2 || n2 == n3 || n3 == n1) {
+		cout << n1 + 5 << endl;
+		cout << n2 + 5 << endl;
+		cout << n3 + 5 << endl;
+	}
+	else {
+		cout << "Tut ravnih net" << endl;
+	}
+
+
+	system ("pause");
+	
+	return 0;
+
+}
